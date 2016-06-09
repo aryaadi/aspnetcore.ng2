@@ -1,0 +1,20 @@
+<div>
+    <div class="well well-md">
+        <div class="row">
+            <div class="col-sm-6">
+                <span class="page-title">Articles</span>
+            </div>
+            <div class="col-sm-6">
+                <span class="pull-right">
+                    <a [routerLink]="['EditNewArticle',{id: 0}]" class="btn btn-md btn-primary">New</a>
+                </span>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+    <div *ngFor='let article of articles' class='col-md-6'>
+        <avam-article [article]='article'></avam-article>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,99 @@
+<form #articleForm="ngForm" (ngSubmit)="onSave()">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <span class="page-title">{{pageTitle}}</span>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group" [ngClass]="{'has-error has-feedback' : !title.valid && !title.pristine}">
+                        <label class="control-label" for="title">Title</label>
+                        <input type="text" class="form-control" required
+                             ngControl="title" #title="ngForm" [(ngModel)]='article.title'
+                        />
+                        
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="description">Description</label>
+                        <textarea id="description" name="description" rows="5" ngControl="description" required ngControl="description" #title="ngForm"
+                            class="form-control" [(ngModel)]='article.description'>
+                            </textarea>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+
+                        <label class="control-label" for="primaryTag">Primary Tag</label>
+                        <div class="input-group">
+                            <select id="primaryTag" name="primaryTag" required class="form-control" [(ngModel)]="article.primaryTag"
+                                    ngControl="primaryTag" #primaryTag="ngForm"
+                                    >
+                                    <option *ngFor='let tag of tags' [value]="tag">{{tag.name}}</option>
+                                </select>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">New</button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="secondaryTags">Secondary Tags</label>
+                        <select id="secondaryTags" name="secondaryTags" class="form-control" size="6" multiple>
+                            <option value="{{tag.id}}" *ngFor='let tag of tags'>{{tag.name}}</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label" for="sourceUrl">Source</label>
+                        <input type="text" id="sourceUrl" name="sourceUrl" 
+                                required
+                                ngControl="sourceUrl" #sourceUrl="ngForm"
+                                class="form-control" [(ngModel)]='article.source' />
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label class="control-label" for="briefBody">Brief Article</label>
+                        <textarea id="briefBody" name="briefBody" rows="4" class="form-control" [(ngModel)]='article.briefBody'>
+                            </textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="control-label" for="publishDate">Publish Date</label>
+                        <input type="text" required
+                            ngControl="publishDate" #publishDate="ngForm" 
+                            class="form-control" [(ngModel)]='article.publishDate' />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label class="control-label" for="author">Author</label>
+                        <input type="text" required
+                            ngControl="author" #author="ngForm" 
+                            class="form-control" [(ngModel)]='article.author' />
+                        <span>{{articleForm.form.valid}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+            <div class="row" style="margin-right:5px">
+                <div class="pull-right">
+                    <input class="btn btn-sm btn-primary" [disabled]="!articleForm.form.valid" type="submit" value="Save"/>
+                    <button (click)='OnBack()' class="btn btn-sm btn-danger">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

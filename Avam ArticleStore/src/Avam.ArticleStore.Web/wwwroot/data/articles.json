@@ -1,0 +1,83 @@
+[
+    {
+        "id": "1",
+        "title": "C# Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of c#",
+        "briefBody": "C# and .NET Programming demonstrates a very simple C# program that prints the text string Hello World! to the console screen and provides a line-by-line analysis of that program. However, even that simple program was complex enough that we had to skip some of the details. In this chapter, we'll begin an in-depth exploration of the syntax and structure of the C# language. The syntax of a language is the order of the keywords, where you put semicolons, and so forth. The semantics are what you are expressing in the code, and how your code fits together. Syntax is trivial and unimportant, but because compilers are absolute sticklers for correct syntax, novice programmers pay a lot of attention to syntax until they are comfortable. Fortunately, Visual Studio 2008 makes managing syntax much easier so that you can focus on semantics, which are far more important",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    },{
+        "id": "2",
+        "title": "Wcf Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of Wcf",
+        "briefBody": "WCF is a runtime and a set of APIs for creating systems that send messages between services and clients. The same infrastructure and APIs are used to create applications that communicate with other applications on the same computer system or on a system that resides in another company and is accessed over the Internet.",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    },{
+        "id": "3",
+        "title": "C# Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of c#",
+        "briefBody": "C# and .NET Programming demonstrates a very simple C# program that prints the text string Hello World! to the console screen and provides a line-by-line analysis of that program. However, even that simple program was complex enough that we had to skip some of the details. In this chapter, we'll begin an in-depth exploration of the syntax and structure of the C# language. The syntax of a language is the order of the keywords, where you put semicolons, and so forth. The semantics are what you are expressing in the code, and how your code fits together. Syntax is trivial and unimportant, but because compilers are absolute sticklers for correct syntax, novice programmers pay a lot of attention to syntax until they are comfortable. Fortunately, Visual Studio 2008 makes managing syntax much easier so that you can focus on semantics, which are far more important",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    },{
+        "id": "4",
+        "title": "C# Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of c#",
+        "briefBody": "C# and .NET Programming demonstrates a very simple C# program that prints the text string Hello World! to the console screen and provides a line-by-line analysis of that program. However, even that simple program was complex enough that we had to skip some of the details. In this chapter, we'll begin an in-depth exploration of the syntax and structure of the C# language. The syntax of a language is the order of the keywords, where you put semicolons, and so forth. The semantics are what you are expressing in the code, and how your code fits together. Syntax is trivial and unimportant, but because compilers are absolute sticklers for correct syntax, novice programmers pay a lot of attention to syntax until they are comfortable. Fortunately, Visual Studio 2008 makes managing syntax much easier so that you can focus on semantics, which are far more important",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    },    {
+        "id": "5",
+        "title": "C# Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of c#",
+        "briefBody": "C# and .NET Programming demonstrates a very simple C# program that prints the text string Hello World! to the console screen and provides a line-by-line analysis of that program. However, even that simple program was complex enough that we had to skip some of the details. In this chapter, we'll begin an in-depth exploration of the syntax and structure of the C# language. The syntax of a language is the order of the keywords, where you put semicolons, and so forth. The semantics are what you are expressing in the code, and how your code fits together. Syntax is trivial and unimportant, but because compilers are absolute sticklers for correct syntax, novice programmers pay a lot of attention to syntax until they are comfortable. Fortunately, Visual Studio 2008 makes managing syntax much easier so that you can focus on semantics, which are far more important",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    },{
+        "id": "6",
+        "title": "C# Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of c#",
+        "briefBody": "C# and .NET Programming demonstrates a very simple C# program that prints the text string Hello World! to the console screen and provides a line-by-line analysis of that program. However, even that simple program was complex enough that we had to skip some of the details. In this chapter, we'll begin an in-depth exploration of the syntax and structure of the C# language. The syntax of a language is the order of the keywords, where you put semicolons, and so forth. The semantics are what you are expressing in the code, and how your code fits together. Syntax is trivial and unimportant, but because compilers are absolute sticklers for correct syntax, novice programmers pay a lot of attention to syntax until they are comfortable. Fortunately, Visual Studio 2008 makes managing syntax much easier so that you can focus on semantics, which are far more important",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    },{
+        "id": "7",
+        "title": "C# Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of c#",
+        "briefBody": "C# and .NET Programming demonstrates a very simple C# program that prints the text string Hello World! to the console screen and provides a line-by-line analysis of that program. However, even that simple program was complex enough that we had to skip some of the details. In this chapter, we'll begin an in-depth exploration of the syntax and structure of the C# language. The syntax of a language is the order of the keywords, where you put semicolons, and so forth. The semantics are what you are expressing in the code, and how your code fits together. Syntax is trivial and unimportant, but because compilers are absolute sticklers for correct syntax, novice programmers pay a lot of attention to syntax until they are comfortable. Fortunately, Visual Studio 2008 makes managing syntax much easier so that you can focus on semantics, which are far more important",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    },{
+        "id": "8",
+        "title": "C# Fundamentals",
+        "primaryTag": "C#",
+        "secondaryTags": "C#, BasicC#",
+        "description": "Talks about the fundamentals of c#",
+        "briefBody": "C# and .NET Programming demonstrates a very simple C# program that prints the text string Hello World! to the console screen and provides a line-by-line analysis of that program. However, even that simple program was complex enough that we had to skip some of the details. In this chapter, we'll begin an in-depth exploration of the syntax and structure of the C# language. The syntax of a language is the order of the keywords, where you put semicolons, and so forth. The semantics are what you are expressing in the code, and how your code fits together. Syntax is trivial and unimportant, but because compilers are absolute sticklers for correct syntax, novice programmers pay a lot of attention to syntax until they are comfortable. Fortunately, Visual Studio 2008 makes managing syntax much easier so that you can focus on semantics, which are far more important",
+        "addedOn": "Fri, 22 Jan 2016 05:00:00 GMT",
+        "publishDate": "Wed, 20 Jan 2016 05:00:00 GMT",
+        "sourceUrl": "http: //www.codeproject.com"
+    }
+]
